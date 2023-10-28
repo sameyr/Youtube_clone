@@ -1,0 +1,70 @@
+.pp{
+    object-fit: cover;
+    object-position: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 4p x;
+    
+}   
+.text{
+    margin-top: 10px;
+    height: 40px;
+    font-size: large;
+    width:250px;
+    border: none;
+    vertical-align: middle;
+}
+.tweet,
+.follow{
+    margin-top: 10px;
+    background-color: rgb(29, 155, 240);          
+    border-radius:28px;
+    color: white;
+    font-weight:600;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top:8px ;
+    padding-bottom:8px;
+    cursor:pointer;    
+    margin-right:8px;  
+    vertical-align: middle; 
+}
+
+.container,
+.container2{
+    height:65px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.name{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-bottom: 1px;
+}
+.species,
+.condition{
+    font-size:small;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom:0 ;
+    color: grey;
+}
+
+.follow{
+    margin-left: 210px;
+}

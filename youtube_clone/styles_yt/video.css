@@ -40,3 +40,22 @@
     row-gap: 20px;
 
 }
+
+.thumbnail-row{
+    position:relative;
+}
+.video-length{
+    font-family:Roboto, Arial; 
+    font-size: 12px;
+    font-weight: 500;
+    position:absolute;
+    background-color: black;
+    color: white;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:4px;
+    padding-bottom:4px ;
+    border-radius: 2px;
+    bottom:4px;
+    right: 4px;
+}
