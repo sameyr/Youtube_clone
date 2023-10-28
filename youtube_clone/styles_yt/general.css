@@ -5,5 +5,8 @@ p{
 }
 
 body{
+    height:1000px;
     margin:0;
+    padding-top: 80px;
+    padding-left: 100px;
 }

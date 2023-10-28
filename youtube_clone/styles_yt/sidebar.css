@@ -1,0 +1,31 @@
+.sideBar{
+    background-color: white;
+    position: fixed;
+    bottom: 0px;;
+    left:0px;
+    top:60px;
+    width: 68px;
+    border-right-width:1px;
+    border-right-color: rgb(230, 230, 230);
+    border-right-style: solid;
+}
+
+.home{
+    height:26px;
+}
+
+.explore{
+    height:26px;
+}
+
+.subscriptions{
+    height:26px;
+}
+
+.originals{
+    height:26px;
+}
+
+.youtube-music{
+    height:26px;
+}
