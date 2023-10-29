@@ -1,6 +1,7 @@
-.sideBar{
+.sidebar{
     background-color: white;
     position: fixed;
+    z-index: 1000;
     bottom: 0px;;
     left:0px;
     top:60px;
@@ -8,24 +9,29 @@
     border-right-width:1px;
     border-right-color: rgb(230, 230, 230);
     border-right-style: solid;
+    padding-top:8px ;
 }
 
-.home{
-    height:26px;
+.sidebar-link{
+    height:76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.explore{
-    height:26px;
+.sidebar-link:hover{
+    cursor: pointer;
+    background-color: lightgray;
 }
 
-.subscriptions{
-    height:26px;
+.sidebar-link img{
+    height: 26px;
+    margin-bottom: 3px;
 }
 
-.originals{
-    height:26px;
-}
-
-.youtube-music{
-    height:26px;
+.sidebar-link div{
+    font-family:Roboto, Arial; ;
+    font-size: 9px;
+    font-weight:0;
 }
